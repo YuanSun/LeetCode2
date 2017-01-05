@@ -15,6 +15,11 @@ public class Multiplier extends Adder{
 		return result;
 	}
 
+	/**
+	 * 
+	 * @param operand
+	 * @return
+	 */
 	private int convertToInt(int[] operand) {
 		int operandInt = 0;
 		for (int i = 0; i < operand.length; i++) {
@@ -22,5 +27,4 @@ public class Multiplier extends Adder{
 		}
 		return operandInt;
 	}
-	
 }
