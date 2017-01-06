@@ -59,15 +59,14 @@ public class AddOne {
             for (int i = length - 1; i >= 0; i--) {
                if(i == length - 1) {// LSB -> + 1
                    sum = operand[i] + 1;
-                   if(sum > 9)
-                       carry = 1;
                } else {
                    sum = operand[i] + carry;
                    carry = 0;
-                   if(sum > 9)
-                       carry = 1;
                }
-               sum = sum % 10;
+               if(sum > 9){
+                   carry = 1;
+                   sum = sum % 10;
+               }
                operand[i] = sum;
             }// end for loop
             
