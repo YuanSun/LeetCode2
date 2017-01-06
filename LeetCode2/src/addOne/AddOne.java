@@ -51,7 +51,7 @@ public class AddOne {
         
         public static int[] addOne(int[] operand) {
             if(operand.length == 0)
-                return null;
+                return new int[]{1};
             boolean overflow = false;
             int sum, carry = 0;
             int length = operand.length;

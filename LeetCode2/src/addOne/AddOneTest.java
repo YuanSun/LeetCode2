@@ -3,7 +3,7 @@ package addOne;
 public class AddOneTest {
 
 	public static void main(String[] args) {
-		int[] test = {9, 9, 0, 9};
+		int[] test = {};
 		AddOne theNumberToAdd = new AddOne(test);
 		int[] result1 = theNumberToAdd.Result();
 		int[] result2 = AddOne.addOne(test);
