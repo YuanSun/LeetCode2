@@ -16,7 +16,7 @@ public class Multiplier extends Adder{
 	}
 
 	/**
-	 * 
+	 *
 	 * @param operand
 	 * @return
 	 */
