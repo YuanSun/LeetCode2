@@ -27,5 +27,4 @@ public class Multiplier extends Adder{
 		}
 		return operandInt;
 	}
-	
 }
