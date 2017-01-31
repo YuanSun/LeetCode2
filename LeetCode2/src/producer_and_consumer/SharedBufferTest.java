@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 public class SharedBufferTest {
 	public static void main(String[] args) throws InterruptedException {
 		ExecutorService executorService = Executors.newCachedThreadPool();
-		Buffer sharedLocation = new UnsynchronizedBuffer();
+		Buffer sharedLocation = new BlockingBuffer();
 		
 		System.out.printf(
 				"Action\t\tValue\tSum of Produced\tSum of Consumed%n");
