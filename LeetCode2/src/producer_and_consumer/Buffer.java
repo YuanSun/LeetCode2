@@ -1,0 +1,7 @@
+package producer_and_consumer;
+
+public interface Buffer {
+	public void blockingPut(int value) throws InterruptedException;
+	
+	public int blockingGet() throws InterruptedException;
+}
