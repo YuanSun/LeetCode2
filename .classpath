@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="LeetCode2/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/sunyuan/Desktop/mysql-connector-java-5.1.40/mysql-connector-java-5.1.40-bin.jar"/>
 	<classpathentry kind="output" path="LeetCode2/bin"/>
 </classpath>
